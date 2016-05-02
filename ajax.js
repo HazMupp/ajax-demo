@@ -10,10 +10,10 @@
 // Påbörja en hämtning
 var request = new XMLHttpRequest();
 
-request.onreadystatechange = function(req, res) {
+request.onreadystatechange = function() {
 console.log("någonting hände");
   // I variabeld res(response) finns det information...
-  console.log("svaret (response) är " + res.responseText);
+  console.log("svaret (response) är " + request.responseText);
 
 }
 
