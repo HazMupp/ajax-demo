@@ -14,7 +14,7 @@ request.onreadystatechange = function() {
   
 console.log("någonting hände");
   
-  if (request.readyState == 4 && request.status == 200 {
+  if (request.readyState == 4 && request.status == 200) {
   // I variabeld res(response) finns det information...
   console.log("svaret (response) är " + request.responseText);
   
