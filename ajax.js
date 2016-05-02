@@ -15,5 +15,5 @@ console.log("någonting hände");
 
 }
 
-request.open('GET', 'http://www.google.com');
+request.open('GET', 'http://mardby.se/AJK15G/lorem_text.php');
 request.send();
