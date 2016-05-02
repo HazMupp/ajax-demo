@@ -11,10 +11,14 @@
 var request = new XMLHttpRequest();
 
 request.onreadystatechange = function() {
+  
 console.log("någonting hände");
+  
+  if (request.readyState == 4 && request.status == 200 {
   // I variabeld res(response) finns det information...
   console.log("svaret (response) är " + request.responseText);
-
+  
+	}
 }
 
 request.open('GET', 'http://mardby.se/AJK15G/lorem_text.php');
