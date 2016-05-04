@@ -16,6 +16,7 @@ console.log("någonting hände");
   
   if (request.readyState == 4 && request.status == 200) {
   // I variabeld res(response) finns det information...
+  console.log("Vi har fått ett svar");
   console.log("svaret (response) är " + request.responseText);
     
     // spara texten i en variabel
@@ -25,5 +26,6 @@ console.log("någonting hände");
 	}
 }
 
-request.open('GET', 'http://mardby.se/AJK15G/lorem_text.php');
+request.open('GET', 'http://api.spotify.com/v1/users/hello');
 request.send();
+console.log("sista raden i koden...");
